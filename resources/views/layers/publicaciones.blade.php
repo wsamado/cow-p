@@ -4,7 +4,7 @@ active
 @endsection
 @section('content')
 <!-- PRODUCTOS  -->
-<section id="products" class="productos-t sc-pp">
+<section id="products" class="productos-t sc-pi">
   <div class="cot my-4">
     <!--Carousel Wrapper-->
     <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">

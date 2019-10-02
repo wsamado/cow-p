@@ -24,3 +24,7 @@ Route::get('/quienes-somos', function () {
 Route::get('/publicaciones', function () {
     return view('layers.publicaciones');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

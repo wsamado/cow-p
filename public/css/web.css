@@ -118,6 +118,11 @@ h1, h2, h3, h4, h5, h6, a, p{
 }
 
 .sc-pp{
+  padding: 14% 0%;
+  background: #fff;
+}
+
+.sc-pi{
   padding: 8% 0%;
   background: #fff;
 }

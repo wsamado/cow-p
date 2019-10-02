@@ -8,7 +8,9 @@
 
         <!-- Link's -->
         <link rel="stylesheet" href="css/web.css">
+        <link href="{{ asset('css/web.css') }}" rel="stylesheet">
         <link rel="stylesheet" href="css/mediaquery.css">
+        <link href="{{ asset('css/mediaquery.css') }}" rel="stylesheet">
 
         <!-- Bootstrap -->
         <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
@@ -30,6 +32,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <script src="js/web.js"></script>
+      <script src="{{ asset('js/web.js') }}"></script>
     </body>
     @include('footer')
 </html>
